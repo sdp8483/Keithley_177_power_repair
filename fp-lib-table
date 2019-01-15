@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Keithley_Components)(type KiCad)(uri ${KIPRJMOD}/lib_fp/Keithley_Components.pretty)(options "")(descr ""))
+  (lib (name PL_logo)(type KiCad)(uri ${KIPRJMOD}/lib_fp/PL_logo.pretty)(options "")(descr ""))
+)

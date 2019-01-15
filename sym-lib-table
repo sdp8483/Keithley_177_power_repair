@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name RecomPower)(type Legacy)(uri ${KIPRJMOD}/lib_sch/RecomPower.lib)(options "")(descr ""))
+  (lib (name Keithley_Components)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Keithley_Components.lib)(options "")(descr ""))
+)

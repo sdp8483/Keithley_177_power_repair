@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Keithley_177_power_repair-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -2916,7 +2917,7 @@ L Keithley_Components:Transfomer T101
 U 1 1 5C3E1C43
 P 4300 2900
 F 0 "T101" H 4500 2600 60  0000 C CNN
-F 1 "Transfomer" H 4300 3200 60  0001 C CNN
+F 1 "Transformer" H 4300 3200 60  0001 C CNN
 F 2 "" H 4600 2950 60  0001 C CNN
 F 3 "" H 4600 2950 60  0001 C CNN
 	1    4300 2900
@@ -2933,7 +2934,7 @@ L Keithley_Components:Transfomer T101
 U 2 1 5C3E41A9
 P 6450 2750
 F 0 "T101" H 6550 2450 60  0000 L CNN
-F 1 "Transfomer" H 6200 3050 60  0001 L CNN
+F 1 "Transformer" H 6200 3050 60  0001 L CNN
 F 2 "" H 6750 2800 60  0001 C CNN
 F 3 "" H 6750 2800 60  0001 C CNN
 	2    6450 2750
@@ -2964,7 +2965,7 @@ Wire Wire Line
 	5850 2950 6100 2950
 Connection ~ 5850 2950
 Text Notes 4000 2200 0    50   ~ 0
-Transfomer Replacement
+Transformer Replacement
 Wire Notes Line
 	4000 2200 6900 2200
 Wire Notes Line

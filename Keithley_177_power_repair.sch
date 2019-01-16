@@ -20,7 +20,7 @@ U 1 1 5C3D0211
 P 5350 2850
 F 0 "T1" H 5600 2650 50  0000 C CNN
 F 1 "RAC20-DK" H 5350 3050 50  0000 C CNN
-F 2 "" H 5250 2850 50  0001 C CNN
+F 2 "Keithley_Components:RAC20-K" H 5250 2850 50  0001 C CNN
 F 3 "" H 5250 2850 50  0001 C CNN
 	1    5350 2850
 	1    0    0    -1  
@@ -2794,7 +2794,7 @@ U 1 1 5C3D878F
 P 4450 4100
 F 0 "CR103" H 4450 4100 50  0000 C CNN
 F 1 "JUMPERS" H 4791 4055 50  0001 L CNN
-F 2 "" H 4450 4100 50  0001 C CNN
+F 2 "Keithley_Components:Bridge_Rectifier_Inline" H 4450 4100 50  0001 C CNN
 F 3 "~" H 4450 4100 50  0001 C CNN
 	1    4450 4100
 	1    0    0    -1  
@@ -2831,7 +2831,7 @@ U 1 1 5C3D9E5C
 P 4450 5150
 F 0 "CR104" H 4450 5150 50  0000 C CNN
 F 1 "JUMPERS" H 4791 5105 50  0001 L CNN
-F 2 "" H 4450 5150 50  0001 C CNN
+F 2 "Keithley_Components:Bridge_Rectifier_Square" H 4450 5150 50  0001 C CNN
 F 3 "~" H 4450 5150 50  0001 C CNN
 	1    4450 5150
 	1    0    0    -1  
@@ -2918,7 +2918,7 @@ U 1 1 5C3E1C43
 P 4300 2900
 F 0 "T101" H 4500 2600 60  0000 C CNN
 F 1 "Transformer" H 4300 3200 60  0001 C CNN
-F 2 "" H 4600 2950 60  0001 C CNN
+F 2 "Keithley_Components:Keithley_Transformer" H 4600 2950 60  0001 C CNN
 F 3 "" H 4600 2950 60  0001 C CNN
 	1    4300 2900
 	1    0    0    -1  
@@ -2935,7 +2935,7 @@ U 2 1 5C3E41A9
 P 6450 2750
 F 0 "T101" H 6550 2450 60  0000 L CNN
 F 1 "Transformer" H 6200 3050 60  0001 L CNN
-F 2 "" H 6750 2800 60  0001 C CNN
+F 2 "Keithley_Components:Keithley_Transformer" H 6750 2800 60  0001 C CNN
 F 3 "" H 6750 2800 60  0001 C CNN
 	2    6450 2750
 	1    0    0    -1  
@@ -2993,7 +2993,7 @@ U 1 1 5C3F10D0
 P 6400 3900
 F 0 "VR101" H 6250 4025 50  0000 C CNN
 F 1 "L7805" H 6400 4025 50  0000 L CNN
-F 2 "" H 6425 3750 50  0001 L CIN
+F 2 "Keithley_Components:Voltage_Regulator" H 6425 3750 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6400 3850 50  0001 C CNN
 	1    6400 3900
 	1    0    0    -1  
@@ -3027,7 +3027,7 @@ U 1 1 5C3F417A
 P 5400 3950
 F 0 "VR102" H 5250 4075 50  0000 C CNN
 F 1 "L7815" H 5400 4075 50  0000 L CNN
-F 2 "" H 5425 3800 50  0001 L CIN
+F 2 "Keithley_Components:Voltage_Regulator" H 5425 3800 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5400 3900 50  0001 C CNN
 	1    5400 3950
 	1    0    0    -1  
@@ -3038,7 +3038,7 @@ U 1 1 5C3F4232
 P 5400 5000
 F 0 "VR103" H 5250 4875 50  0000 C CNN
 F 1 "L7915" H 5400 4875 50  0000 L CNN
-F 2 "" H 5400 4800 50  0001 C CIN
+F 2 "Keithley_Components:Voltage_Regulator" H 5400 4800 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 5400 5000 50  0001 C CNN
 	1    5400 5000
 	1    0    0    -1  
@@ -3064,4 +3064,8 @@ Wire Notes Line
 	5900 3550 7050 3550
 Wire Notes Line
 	7050 3550 7050 5250
+Text Label 4700 2750 0    50   ~ 0
+L
+Text Label 4700 3050 0    50   ~ 0
+N
 $EndSCHEMATC

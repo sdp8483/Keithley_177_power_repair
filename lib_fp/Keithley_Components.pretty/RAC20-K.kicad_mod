@@ -1,4 +1,4 @@
-(module RAC20-K (layer F.Cu) (tedit 5C4384D4)
+(module RAC20-K (layer F.Cu) (tedit 5C43B29A)
   (fp_text reference T1 (at 25 10) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -14,4 +14,9 @@
   (pad 3 thru_hole circle (at 45.72 20.32) (size 3 3) (drill 1.2) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 45.72 10.16) (size 3 3) (drill 1.2) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 45.72 0) (size 3 3) (drill 1.2) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/3d_models/RAC20-DK.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

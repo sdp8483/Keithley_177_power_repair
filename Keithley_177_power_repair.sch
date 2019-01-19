@@ -2786,131 +2786,7 @@ F 3 "" H 5850 3200 50  0001 C CNN
 	1    5850 3200
 	-1   0    0    1   
 $EndComp
-Text Notes 4000 3650 0    50   ~ 0
-CR103 Jumpers
-$Comp
-L Device:D_Bridge_+AA- CR103
-U 1 1 5C3D878F
-P 4450 4100
-F 0 "CR103" H 4450 4100 50  0000 C CNN
-F 1 "JUMPERS" H 4791 4055 50  0001 L CNN
-F 2 "Keithley_Components:Bridge_Rectifier_Inline" H 4450 4100 50  0001 C CNN
-F 3 "~" H 4450 4100 50  0001 C CNN
-	1    4450 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 3800 4450 3700
-Wire Wire Line
-	4450 3700 4850 3700
-Wire Wire Line
-	4850 3700 4850 4100
-Wire Wire Line
-	4850 4100 4750 4100
-Wire Wire Line
-	4150 4100 4050 4100
-Wire Wire Line
-	4050 4100 4050 4500
-Wire Wire Line
-	4050 4500 4450 4500
-Wire Wire Line
-	4450 4500 4450 4400
-Wire Notes Line
-	4000 3550 4000 4550
-Wire Notes Line
-	4000 4550 4900 4550
-Wire Notes Line
-	4900 4550 4900 3550
-Wire Notes Line
-	4900 3550 4000 3550
-Wire Notes Line
-	4000 3650 4900 3650
-$Comp
-L Device:D_Bridge_+AA- CR104
-U 1 1 5C3D9E5C
-P 4450 5150
-F 0 "CR104" H 4450 5150 50  0000 C CNN
-F 1 "JUMPERS" H 4791 5105 50  0001 L CNN
-F 2 "Keithley_Components:Bridge_Rectifier_Square" H 4450 5150 50  0001 C CNN
-F 3 "~" H 4450 5150 50  0001 C CNN
-	1    4450 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 4850 4450 4750
-Wire Wire Line
-	4450 4750 4850 4750
-Wire Wire Line
-	4850 4750 4850 5150
-Wire Wire Line
-	4850 5150 4750 5150
-Wire Wire Line
-	4150 5150 4050 5150
-Wire Wire Line
-	4050 5150 4050 5550
-Wire Wire Line
-	4050 5550 4450 5550
-Wire Wire Line
-	4450 5550 4450 5450
-Text Notes 4000 4700 0    50   ~ 0
-CR104 Jumpers
-Wire Notes Line
-	4000 4700 4900 4700
-Wire Notes Line
-	4900 5600 4000 5600
-Wire Notes Line
-	4000 5600 4000 4600
-Wire Notes Line
-	4000 4600 4900 4600
-Wire Notes Line
-	4900 4600 4900 5600
-Text Notes 4950 3650 0    50   ~ 0
-VR102 Jumpers
-Text Notes 4950 4550 0    50   ~ 0
-VR103 Jumpers
-Wire Wire Line
-	5100 3950 5000 3950
-Wire Wire Line
-	5000 3950 5000 4350
-Wire Wire Line
-	5000 4350 5800 4350
-Wire Wire Line
-	5800 4350 5800 3950
-Wire Wire Line
-	5800 3950 5700 3950
-NoConn ~ 5400 4250
-NoConn ~ 5400 4700
-Wire Notes Line
-	4950 3650 5850 3650
-Wire Notes Line
-	5850 4400 4950 4400
-Wire Notes Line
-	4950 4400 4950 3550
-Wire Notes Line
-	4950 3550 5850 3550
-Wire Notes Line
-	5850 3550 5850 4400
-Wire Wire Line
-	5100 5000 5000 5000
-Wire Wire Line
-	5000 5000 5000 4600
-Wire Wire Line
-	5000 4600 5800 4600
-Wire Wire Line
-	5800 4600 5800 5000
-Wire Wire Line
-	5800 5000 5700 5000
-Wire Notes Line
-	4950 4550 5850 4550
-Wire Notes Line
-	5850 5300 4950 5300
-Wire Notes Line
-	4950 5300 4950 4450
-Wire Notes Line
-	4950 4450 5850 4450
-Wire Notes Line
-	5850 4450 5850 5300
-Text Notes 5900 3650 0    50   ~ 0
+Text Notes 6950 2050 0    50   ~ 0
 7805 Replacement
 $Comp
 L Keithley_Components:Transfomer T101
@@ -2941,7 +2817,7 @@ F 3 "" H 6750 2800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 2950 5850 3200
+	5850 2950 5850 3150
 Wire Wire Line
 	5850 2450 5850 2550
 Wire Wire Line
@@ -2979,93 +2855,131 @@ Wire Notes Line
 $Comp
 L power:GNDA #PWR03
 U 1 1 5C3EFB5A
-P 6400 4200
-F 0 "#PWR03" H 6400 3950 50  0001 C CNN
-F 1 "GNDA" H 6405 4027 50  0000 C CNN
-F 2 "" H 6400 4200 50  0001 C CNN
-F 3 "" H 6400 4200 50  0001 C CNN
-	1    6400 4200
+P 7450 2750
+F 0 "#PWR03" H 7450 2500 50  0001 C CNN
+F 1 "GNDA" H 7455 2577 50  0000 C CNN
+F 2 "" H 7450 2750 50  0001 C CNN
+F 3 "" H 7450 2750 50  0001 C CNN
+	1    7450 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Regulator_Linear:L7805 VR101
 U 1 1 5C3F10D0
-P 6400 3900
-F 0 "VR101" H 6250 4025 50  0000 C CNN
-F 1 "L7805" H 6400 4025 50  0000 L CNN
-F 2 "Keithley_Components:Voltage_Regulator" H 6425 3750 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6400 3850 50  0001 C CNN
-	1    6400 3900
+P 7450 2450
+F 0 "VR101" H 7300 2575 50  0000 C CNN
+F 1 "L7805" H 7450 2575 50  0000 L CNN
+F 2 "Keithley_Components:Voltage_Regulator" H 7475 2300 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 7450 2400 50  0001 C CNN
+	1    7450 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Regulator_Switching:R-78E5.0-1.0 U1
 U 1 1 5C3F11FE
-P 6400 4700
-F 0 "U1" H 6250 4825 50  0000 C CNN
-F 1 "R-78E5.0-1.0" H 6400 4825 50  0000 L CNN
-F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" H 6450 4450 50  0001 L CIN
-F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf" H 6400 4700 50  0001 C CNN
-	1    6400 4700
+P 7450 3250
+F 0 "U1" H 7300 3375 50  0000 C CNN
+F 1 "R-78E5.0-1.0" H 7450 3375 50  0000 L CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" H 7500 3000 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf" H 7450 3250 50  0001 C CNN
+	1    7450 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 4700 6000 4700
+	7150 3250 7050 3250
 Wire Wire Line
-	6000 4700 6000 3900
+	7050 3250 7050 2450
 Wire Wire Line
-	6000 3900 6100 3900
+	7050 2450 7150 2450
 Wire Wire Line
-	6700 4700 7000 4700
+	7750 3250 8050 3250
 Wire Wire Line
-	7000 4700 7000 3900
+	8050 3250 8050 2450
 Wire Wire Line
-	7000 3900 6700 3900
-$Comp
-L Regulator_Linear:L7815 VR102
-U 1 1 5C3F417A
-P 5400 3950
-F 0 "VR102" H 5250 4075 50  0000 C CNN
-F 1 "L7815" H 5400 4075 50  0000 L CNN
-F 2 "Keithley_Components:Voltage_Regulator" H 5425 3800 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5400 3900 50  0001 C CNN
-	1    5400 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:L7915 VR103
-U 1 1 5C3F4232
-P 5400 5000
-F 0 "VR103" H 5250 4875 50  0000 C CNN
-F 1 "L7915" H 5400 4875 50  0000 L CNN
-F 2 "Keithley_Components:Voltage_Regulator" H 5400 4800 50  0001 C CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 5400 5000 50  0001 C CNN
-	1    5400 5000
-	1    0    0    -1  
-$EndComp
+	8050 2450 7750 2450
 $Comp
 L power:GNDA #PWR04
 U 1 1 5C3F4838
-P 6400 5000
-F 0 "#PWR04" H 6400 4750 50  0001 C CNN
-F 1 "GNDA" H 6405 4827 50  0000 C CNN
-F 2 "" H 6400 5000 50  0001 C CNN
-F 3 "" H 6400 5000 50  0001 C CNN
-	1    6400 5000
+P 7450 3550
+F 0 "#PWR04" H 7450 3300 50  0001 C CNN
+F 1 "GNDA" H 7455 3377 50  0000 C CNN
+F 2 "" H 7450 3550 50  0001 C CNN
+F 3 "" H 7450 3550 50  0001 C CNN
+	1    7450 3550
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	5900 3650 7050 3650
+	6950 2050 8150 2050
 Wire Notes Line
-	7050 5250 5900 5250
+	8150 3800 6950 3800
 Wire Notes Line
-	5900 5250 5900 3550
+	6950 3800 6950 1950
 Wire Notes Line
-	5900 3550 7050 3550
+	6950 1950 8150 1950
 Wire Notes Line
-	7050 3550 7050 5250
+	8150 1950 8150 3800
 Text Label 4700 2750 0    50   ~ 0
 L
 Text Label 4700 3050 0    50   ~ 0
 N
+$Comp
+L power:GND #PWR05
+U 1 1 5C43A1DE
+P 6100 3200
+F 0 "#PWR05" H 6100 2950 50  0001 C CNN
+F 1 "GND" H 6100 3050 50  0000 C CNN
+F 2 "" H 6100 3200 50  0001 C CNN
+F 3 "" H 6100 3200 50  0001 C CNN
+	1    6100 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2850 5950 3050
+Wire Wire Line
+	5950 3050 6100 3050
+Wire Wire Line
+	6100 3050 6100 3200
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5C43B2DB
+P 5550 2550
+F 0 "TP1" H 5550 2820 50  0000 C CNN
+F 1 "+15V" H 5550 2750 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5750 2550 50  0001 C CNN
+F 3 "~" H 5750 2550 50  0001 C CNN
+	1    5550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5C43B3DD
+P 5600 3150
+F 0 "TP2" H 5600 3420 50  0000 C CNN
+F 1 "-15V" H 5600 3350 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5800 3150 50  0001 C CNN
+F 3 "~" H 5800 3150 50  0001 C CNN
+	1    5600 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5C43B4B0
+P 8050 2400
+F 0 "TP3" H 8050 2670 50  0000 C CNN
+F 1 "5V" H 8050 2600 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8250 2400 50  0001 C CNN
+F 3 "~" H 8250 2400 50  0001 C CNN
+	1    8050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2450 8050 2400
+Connection ~ 8050 2450
+Wire Wire Line
+	5550 2550 5850 2550
+Wire Wire Line
+	5600 3150 5850 3150
+Connection ~ 5850 3150
+Wire Wire Line
+	5850 3150 5850 3200
 $EndSCHEMATC
